@@ -288,10 +288,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ebc320a151d3408ea1e9fce54d40e, type: 3}
   m_Name: OpenXR Package Settings
   m_EditorClassIdentifier: 
-  Keys: 0100000007000000
+  Keys: 010000000700000004000000
   Values:
   - {fileID: 3642816078589721484}
   - {fileID: 1858584185687820922}
+  - {fileID: 5502678004417125327}
 --- !u!114 &71387532615334497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,22 +388,22 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -4264724219082693552}
-  - {fileID: 71387532615334497}
+  - {fileID: -4026826834984493261}
+  - {fileID: 7057436121848720015}
+  - {fileID: -2580544237088890312}
+  - {fileID: 1286987124996430051}
+  - {fileID: 3455252860176129036}
+  - {fileID: 204628565921462219}
   - {fileID: 7590561290748920151}
+  - {fileID: 5674067109974479953}
   - {fileID: 3850228344393383885}
+  - {fileID: 4355455937955343664}
+  - {fileID: -241009253205093731}
+  - {fileID: 71387532615334497}
   - {fileID: -6420821613431176186}
   - {fileID: 6217311633730598638}
+  - {fileID: -4264724219082693552}
   - {fileID: -2234360932498838635}
-  - {fileID: -2580544237088890312}
-  - {fileID: 7057436121848720015}
-  - {fileID: 1286987124996430051}
-  - {fileID: 4355455937955343664}
-  - {fileID: 3455252860176129036}
-  - {fileID: 5674067109974479953}
-  - {fileID: 204628565921462219}
-  - {fileID: -241009253205093731}
-  - {fileID: -4026826834984493261}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -629,6 +630,27 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &5502678004417125327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: iPhone
+  m_EditorClassIdentifier: 
+  features:
+  - {fileID: 6556921993147642912}
+  m_renderMode: 1
+  m_autoColorSubmissionMode: 1
+  m_colorSubmissionModes:
+    m_List: 00000000
+  m_depthSubmissionMode: 0
+  m_optimizeBufferDiscards: 0
+  m_symmetricProjection: 0
 --- !u!114 &5674067109974479953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,6 +708,26 @@ MonoBehaviour:
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.palmpose
   openxrExtensionStrings: XR_EXT_palm_pose
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &6556921993147642912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b213d3e3c7f3109449eb46a4c8ee42f0, type: 3}
+  m_Name: XrPerformanceSettingsFeature iPhone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: XR Performance Settings
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.extension.performance_settings
+  openxrExtensionStrings: XR_EXT_performance_settings
   company: Unity
   priority: 0
   required: 0
