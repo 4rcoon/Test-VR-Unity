@@ -550,7 +550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc89844b809746ceaa8bae81774e0e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyPrefab: {fileID: 8915874473426464242, guid: 60be712f7e0414ad2a6ef6d3d4ff133a, type: 3}
+  EnemyPrefab: {fileID: 118071712677171652, guid: f4328013a9e4b425486841989c5fcc5b, type: 3}
   camTransform: {fileID: 266300932}
   EnemyNumber: 10
   SpawnRange: 3

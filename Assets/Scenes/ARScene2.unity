@@ -230,9 +230,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62d02998d674408d95bf59346a9c599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParticleEffect: {fileID: 5209057701205459242, guid: 91c4a5dc77da5476fa017a8b7b4e8b2a, type: 3}
   RaycastManager: {fileID: 81465888}
   TypeToTrack: 2
-  PrefabToInstantiate: {fileID: 8915874473426464242, guid: 60be712f7e0414ad2a6ef6d3d4ff133a, type: 3}
+  PrefabToInstantiate: {fileID: 118071712677171652, guid: f4328013a9e4b425486841989c5fcc5b, type: 3}
   PlayerInput: {fileID: 1726694516}
   Materials:
   - {fileID: 2100000, guid: e7a5f30091c924fcdaf9219ee41e8e94, type: 2}
@@ -240,6 +241,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f69fbc4e84561e24c9bf1a04d6a8e9ea, type: 2}
   countText: {fileID: 624863786}
   timer: {fileID: 1157373738}
+  _timer: 30
+  SpawnDelay: 1
+  SpawnRange: 2
 --- !u!4 &231611473
 Transform:
   m_ObjectHideFlags: 0
