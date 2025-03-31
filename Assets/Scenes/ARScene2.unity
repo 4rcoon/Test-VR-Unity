@@ -212,7 +212,6 @@ GameObject:
   - component: {fileID: 231611473}
   - component: {fileID: 231611472}
   - component: {fileID: 231611476}
-  - component: {fileID: 231611475}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -257,6 +256,7 @@ MonoBehaviour:
   - {fileID: 624863784}
   - {fileID: 1157373736}
   - {fileID: 525052877}
+  - {fileID: 3032701132536662402, guid: 97202010b053a97408c99ee778b04fb8, type: 3}
   enableOnEnd:
   - {fileID: 1662224023}
   killSound: {fileID: 8300000, guid: bfdc5fc679047fc4f832e560525f773f, type: 3}
@@ -275,20 +275,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &231611475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231611471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fbc0fdd920f4f049a9d86756046a851, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundFXObject: {fileID: 5191142434949868193, guid: 11363dc37e2582c4886fb1124e3a55a8, type: 3}
-  audioClip: {fileID: 8300000, guid: 98446e26e5f114e44a3425caf4e03d59, type: 3}
 --- !u!114 &231611476
 MonoBehaviour:
   m_ObjectHideFlags: 0
