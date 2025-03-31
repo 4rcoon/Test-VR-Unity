@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,7 @@ public class MusicPlayer : MonoBehaviour
     [SerializeField] public AudioSource soundFXObject;
     [SerializeField] public AudioClip audioClip;
 
-    private void Awake()
+    public void OnEnable()
     {
         if (audioClip == null)
         {
@@ -19,6 +20,5 @@ public class MusicPlayer : MonoBehaviour
         audioSource.loop = true;
         audioSource.Play();
     }
-    
 }
 
