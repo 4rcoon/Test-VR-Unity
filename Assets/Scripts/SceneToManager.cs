@@ -42,6 +42,8 @@ public class SceneToManager : MonoBehaviour
     [SerializeField] public GameObject[] disableOnGame;
     [SerializeField] public GameObject[] enableOnGame;
     [SerializeField] public GameObject[] enableOnEnd;
+    
+    [SerializeField] public AudioClip killSound;
 
     private void OnTouch()
     {
@@ -105,6 +107,7 @@ public class SceneToManager : MonoBehaviour
                         cubeCount++;
                         countText.text = $"counter : {cubeCount}";
                         Destroy(hitObj);
+                        SoundManager.instance.PlaySoundFXClip(killSound);
                     }
                 }
             }
