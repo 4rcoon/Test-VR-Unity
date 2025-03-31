@@ -237,9 +237,12 @@ MonoBehaviour:
   PrefabToInstantiate: {fileID: 118071712677171652, guid: f4328013a9e4b425486841989c5fcc5b, type: 3}
   PlayerInput: {fileID: 1726694516}
   Materials:
-  - {fileID: 2100000, guid: e7a5f30091c924fcdaf9219ee41e8e94, type: 2}
-  - {fileID: 2100000, guid: 978dc4989a5fa6f4788ef44c1f4c9114, type: 2}
+  - {fileID: 2100000, guid: 8293b2b3ebd810c4497c99ad165a0137, type: 2}
+  - {fileID: 2100000, guid: cfe368cfe9695dd40aa68c3bc77c0dd5, type: 2}
+  - {fileID: 2100000, guid: dac7bcd10e77c4a49ba6f7c0bb950cd7, type: 2}
   - {fileID: 2100000, guid: f69fbc4e84561e24c9bf1a04d6a8e9ea, type: 2}
+  - {fileID: 2100000, guid: 978dc4989a5fa6f4788ef44c1f4c9114, type: 2}
+  - {fileID: 2100000, guid: e7a5f30091c924fcdaf9219ee41e8e94, type: 2}
   countText: {fileID: 624863786}
   timer: {fileID: 1157373738}
   winning: {fileID: 1662224025}
